@@ -1,3 +1,4 @@
+```python
 import csv
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle
@@ -117,3 +118,4 @@ if __name__ == "__main__":
                    '经过清洗和验证，包含产品类别、销售额、利润等关键指标。报告生成时间：2023年12月31日。',
         image_path='company_logo.png'     # 公司Logo路径
     )
+```
